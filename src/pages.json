@@ -1,0 +1,97 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "活动",
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"subPackages": [
+		
+	{
+		"root": "pagesPartner",
+		"pages": [{
+			"path": "pages/partner",
+			"style": {
+				"navigationBarTitleText": "合作伙伴",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}]
+	},
+	{
+		"root": "pagesRobot",
+		"pages": [{
+			"path": "pages/robot",
+			"style": {
+				"navigationBarTitleText": "法律机器人",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}]
+	},
+	{
+		"root": "pagesOther",
+		"pages": [{
+			"path": "pages/other",
+			"style": {
+				"navigationBarTitleText": "其他服务",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}]
+	},
+	{
+		"root": "pagesMy",
+		"pages": [{
+			"path": "pages/set",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}]
+	}
+
+],
+
+	"preloadRule": {},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+		  "background": "#efeff4"
+		}
+	},
+	"tabBar": {
+        "custom": true,
+		"color": "#1D1D1F",
+		"selectedColor": "#1D1D1F",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"fontSize": "11px",
+		"list": [
+			{
+				"pagePath": "pages/index/index"
+			},
+			{
+				"pagePath": "pagesPartner/pages/partner"
+			},
+			{
+				"pagePath": "pagesRobot/pages/robot"
+			},
+			{
+				"pagePath": "pagesOther/pages/other"
+			},
+			{
+				"pagePath": "pagesMy/pages/set"
+			}
+		
+		]
+	  
+	}
+	
+}

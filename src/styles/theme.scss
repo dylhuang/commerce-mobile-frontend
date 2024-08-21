@@ -1,0 +1,44 @@
+/* ------------------主题配置------------------- */
+// 背景颜色
+$theme-bg: #f7f7f7;
+// 默认主色
+$theme-color: #FA9E2F;
+// 边框、分割线
+$theme-border: #ecefeb;
+// 不可点背景色
+$theme-stop: #cccccc;
+
+//文字色，指主文字1
+$theme-text1: #202020;
+//文字色，指主文字2
+$theme-text2: #5e5e5e;
+//文字色，指辅助、说明文字
+$theme-text3: #909090;
+
+$theme-text-primary: #FA9E2F;
+$theme-text-success: $theme-color;
+$theme-bg-success: rgba(250, 158, 47, 0.15);
+$theme-text-error: #fb5957;
+$theme-bg-error: rgba(251, 89, 87, 0.15);
+
+//消息提示颜色
+$theme-msg: #ff4733;
+//金额购买颜色
+$theme-buy: #f7832e;
+//标签黄色
+$theme-yellow: #fbbb27;
+
+//主色渐变，主要用于按钮
+$linear-gradient: linear-gradient(140deg, #FA9E2F 0%, #FA9E2F 100%);
+//主色渐变，主要用于卡片
+$linear-gradient-card: linear-gradient(135deg, #FA9E2F 0%, #FA9E2F 100%);
+
+//阴影
+$box-shadow: 0px 4px 8px -2px rgba(155, 155, 155, 0.1); // 盒模型
+$card-shadow: 0px 4px 8px 2px rgba(155, 155, 155, 0.2); // 卡片模型
+$btn-shadow: 0px 4px 10px 0px rgba(250, 158, 47, 0.3); // 按钮
+
+//主题文字大小
+$font-size24: 24rpx;
+$font-size28: 28rpx;
+$font-size32: 32rpx;

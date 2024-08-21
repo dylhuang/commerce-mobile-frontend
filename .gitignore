@@ -1,0 +1,8 @@
+/dist/
+/node_modules/
+/.idea/
+/.hbuilderx/
+/src/unpackage/
+.DS_Store
+/src/.hbuilderx/
+/yarn-error.log
