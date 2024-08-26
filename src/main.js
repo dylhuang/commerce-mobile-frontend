@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'trial' || pr
   const VConsole = require('vconsole')
   new VConsole()
 }
-// h5自动计算屏幕宽度并响应
+// h5自动计算屏幕宽度并响应11111111111111111
 ;(function () {
   let u = navigator.userAgent,
     w = window.innerWidth
